@@ -1,0 +1,10 @@
+<div ng-controller="RepositoryController" ng-show="hasConnection()">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="content-panel" ng-include src="'partials/repositories/repositories_table.html'"></div>
+		</div>
+		<div class="col-md-6">
+			<div class="content-panel" ng-include src="'partials/repositories/snapshots_table.html'"></div>
+		</div>
+	</div>
+</div>
