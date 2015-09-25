@@ -11,13 +11,10 @@ b.系统可用内存>2G
 
 
 2.下载
-<pre>git clone git://github.com/medcl/elasticsearch-rtf.git -b master --depth 1</pre>
-
-百度云盘: 
-<pre>http://pan.baidu.com/s/1pJNkrUV</pre>
+<pre>git clone git://github.com/edagarli/elasticsearch_rtf_1.3.git -b master --depth 1</pre>
 
 3.配置
-elasticsearch-rtf / elasticsearch / bin / service / elasticsearch.conf 
+elasticsearch_rtf_1.3 / elasticsearch / bin / service / elasticsearch.conf 
 
 默认JAVA HEAP大小为2G，根据你的服务器环境，需要自行调整，一般设置为物理内存的50%.
 <pre>set.default.ES_HEAP_SIZE=2048</pre>
@@ -27,7 +24,7 @@ elasticsearch-rtf / elasticsearch / bin / service / elasticsearch.conf
 5.运行
 linux:
 <pre>cd elasticsearch/bin/service
-./elasticsearch console</pre>
+./elasticsearch console&./elasticsearch start</pre>  
 
 windows:
 <pre>cd elasticsearch/bin/service
@@ -35,4 +32,4 @@ elasticsearch.bat</pre>
 
 6.工具
 
-使用浏览器打开：http://localhost:9200/_plugin/rtf/
+使用浏览器打开：http://localhost:9200/_plugin/head/
