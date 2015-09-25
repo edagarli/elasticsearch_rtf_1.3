@@ -29,7 +29,7 @@
 # Cluster name identifies your cluster for auto-discovery. If you're running
 # multiple clusters on the same network, make sure you're using unique names.
 #
-cluster.name: naigu_es
+#cluster.name: naigu_es
 
 
 #################################### Node #####################################
@@ -224,7 +224,7 @@ transport.tcp.port: 9300
 
 # Set a custom port to listen for HTTP traffic:
 #
-http.port: 7777
+http.port: 9200
 
 # Set a custom allowed content length:
 #
